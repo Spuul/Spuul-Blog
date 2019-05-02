@@ -1,0 +1,27 @@
+version: 0.2 
+ 
+environment_variables: 
+  plaintext: 
+    HUGO_VERSION: "0.31.1" 
+    HUGO_SHA256: "2ec6fd0493fa246a5747b0f1875d94affaaa30f11715f26abcbe1bc91c940716" 
+     
+phases: 
+  install: 
+    commands: 
+      - curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz 
+      - echo "${HUGO_SHA256}  /tmp/hugo.tar.gz" | sha256sum -c - 
+      - tar xf /tmp/hugo.tar.gz -C /tmp 
+      - mv /tmp/hugo /usr/bin/hugo 
+      - rm -rf /tmp/hugo* 
+      - for FILE in $(git ls-files); do TIME=$(git log --pretty=format:%cd -n 1 --date=iso -- "$FILE"); TIME=$(date -d "$TIME" +%Y%m%d%H%M.%S); echo "$TIME > $FILE"; touch -m -t "$TIME" "$FILE"; done 
+  pre_build: 
+    commands: 
+      - rm -rf /tmp/hugo_cache/ 
+      - rm -rf ./public 
+  build: 
+    commands: 
+      - HUGO_ENV=production hugo --ignoreCache 
+  post_build: 
+    commands: 
+      - aws --region ap-southeast-1 s3 sync --exclude '*' --include 'index.html' --cache-control 'max-age=300' --acl public-read public/ s3://blog.spuul.com/ 
+      - aws --region ap-southeast-1 s3 sync --exclude 'index.html' --cache-control 'max-age=43200' --acl public-read public/ s3://blog.spuul.com/
