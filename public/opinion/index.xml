@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinion on Spuul Blog</title>
+    <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/</link>
+    <description>Recent content in Opinion on Spuul Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Dec 2018 04:28:21 +0600</lastBuildDate>
+    
+	<atom:link href="http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Romantic Dramas to Fresh New Genres, How Bollywood has evolved</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/how-bollywood-has-evolved/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/how-bollywood-has-evolved/</guid>
+      <description>There was a time, not long ago, when Bollywood was synonymous to romantic movies where protagonists danced around trees and ran towards each other in slow-mo, while the wind blew their hair dramatically.</description>
+    </item>
+    
+    <item>
+      <title>Gender Pay Gap in Bollywood &amp; Why Deepika Padukone Called It Out</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/gender-pay-gap-bollywood/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/gender-pay-gap-bollywood/</guid>
+      <description>Aren’t Priyanka Chopra &amp;amp; Deepika Padukone as bankable as Ranbir Kapoor and Ranveer Singh, if not more?</description>
+    </item>
+    
+    <item>
+      <title>Our obsession for Celebrity Weddings</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/obsession-with-celebrity-weddings/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/opinion/obsession-with-celebrity-weddings/</guid>
+      <description>A wedding wave has been engulfing us ever since Virushka got married in December 2017.</description>
+    </item>
+    
+  </channel>
+</rss>

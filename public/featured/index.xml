@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Spuul Blog</title>
+    <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/</link>
+    <description>Recent content in Featured on Spuul Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Dec 2018 04:28:21 +0600</lastBuildDate>
+    
+	<atom:link href="http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spotlight: Kangana Ranaut</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/spotlight-kangana-ranaut/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/spotlight-kangana-ranaut/</guid>
+      <description>Call her Queen, Datto, Simran or Manikarnika, the feisty and daring Kangana Ranaut has created her own glorious niche in Bollywood.</description>
+    </item>
+    
+    <item>
+      <title>Spotlight: Taapsee Pannu</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/spotlight-taapsee-pannu/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/spotlight-taapsee-pannu/</guid>
+      <description>The loud-heart, the feisty and the ever-empowered Taapsee Pannu has won our hearts with her fierce roles and fearless persona.</description>
+    </item>
+    
+    <item>
+      <title>Top 3 Character artists in Bollywood</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/character-artist-bollywood/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/character-artist-bollywood/</guid>
+      <description>Character artists like Pran, Anupam Kher and Paresh Rawal laid the foundation for recent stars like Irfan Khan, Nawazuddin Siddiqui and Pankaj Tripathi, proving that most movies would be nothing without their strong and brilliant performances that add an edge to various storylines.</description>
+    </item>
+    
+    <item>
+      <title>Top 3 Unconventional Leading Actors Of Bollywood Today</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/unconventional-actors-bollywood/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/unconventional-actors-bollywood/</guid>
+      <description>The last few years of Bollywood have given us unconventional movies, which incorporated unconventional actors, who have hereby successfully proved that it’s not all about the songs, the dance or the good looks; it only comes down to the most basic reason for the existence of cinema - the art of acting and entertainment.</description>
+    </item>
+    
+    <item>
+      <title>We Choose Sara Ali Khan Over Janhvi Kapoor. Here’s Why.</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/sara-ali-khan-janhvi-kapoor/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/featured/sara-ali-khan-janhvi-kapoor/</guid>
+      <description>In 2018, Janhvi Kapoor stepped into Bollywood with Dhadak and Sara Ali Khan with Kedarnath, making glorious yet humble beginnings in our mighty industry.</description>
+    </item>
+    
+  </channel>
+</rss>

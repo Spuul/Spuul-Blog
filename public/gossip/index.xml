@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gossips on Spuul Blog</title>
+    <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/gossip/</link>
+    <description>Recent content in Gossips on Spuul Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Dec 2018 04:28:21 +0600</lastBuildDate>
+    
+	<atom:link href="http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/gossip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All you need to know about Karan Johar’s dream project Kalank</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/gossip/kalank-movie-project/</link>
+      <pubDate>Wed, 26 Dec 2018 12:23:10 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/gossip/kalank-movie-project/</guid>
+      <description>Karan Johar has a penchant for multi-starrers. Perhaps just one star-kid can’t be trusted with a big budget movie, right?</description>
+    </item>
+    
+  </channel>
+</rss>

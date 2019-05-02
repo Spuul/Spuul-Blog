@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section blog-single-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h1 class="post-title">{{ .Title }}</h1>
+            <!--    <ul class="list-inline mb-50 post-meta">
+                    <li class="list-inline-item">{{ .Params.author }}</li>
+                    <li class="list-inline-item">{{ .Params.category }}</li>
+                </ul>
+-->
+                {{ with .Resources.GetMatch .Params.image }}<img class="img-responsive" src="{{ .RelPermalink }}" alt="{{ .Title }}">{{ end }}
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="post-single-content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ partial "stars.html" . }}
+
+{{ partial "footer.html" . }}

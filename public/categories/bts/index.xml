@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bts on Spuul Blog</title>
+    <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/categories/bts/</link>
+    <description>Recent content in Bts on Spuul Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Dec 2018 12:30:01 +0600</lastBuildDate>
+    
+	<atom:link href="http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/categories/bts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making of A Gentleman</title>
+      <link>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/making-of-a-gentleman/</link>
+      <pubDate>Wed, 26 Dec 2018 12:30:01 +0600</pubDate>
+      
+      <guid>http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/making-of-a-gentleman/</guid>
+      <description>A gentleman is a story about Gaurav who is on a mission to settle down.</description>
+    </item>
+    
+  </channel>
+</rss>
