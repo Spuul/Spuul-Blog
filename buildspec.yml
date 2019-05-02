@@ -3,7 +3,7 @@ version: 0.2
 environment_variables: 
   plaintext: 
     HUGO_VERSION: "0.55.4" 
-    HUGO_SHA256: "182f6e6ddee99e3ff3914c9ae7bacc7a9facb2897762ee82a78feff512f08987" 
+    HUGO_SHA256: "fca0223d05e6bf9992a2050480635ea73fe1633ebab0c64b4fe991d0dbc7a0af" 
      
 phases: 
   install: 
