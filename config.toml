@@ -1,4 +1,4 @@
-baseURL = "http://staging.blog.spuul.com.s3-website-ap-southeast-1.amazonaws.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Spuul Blog"
 
