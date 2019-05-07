@@ -1,8 +1,7 @@
 ---
 title: "A Gentleman"
 date: 2018-12-26T12:30:01+06:00
-image: a-gentleman-poster.jpg
-bannerImg: a-gentleman-making.jpg
+image: "a-gentleman-making.jpg"
 type: "post"
 category: ["bts"]
 ---

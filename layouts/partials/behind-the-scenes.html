@@ -13,7 +13,8 @@
                             <div class="masonry-card-item pos-rel">
                                 <div class="blog-img">
                                   <a href="{{ .Permalink }}">
-                                    {{ with .Resources.GetMatch .Params.bannerImg }}
+                                    {{ $image := .Param "image" }}
+                                    {{ with .Resources.GetMatch $image }}
                                     {{ $image := (.Resize "500x281 box") }}
 
                                     <img src="{{ $image.RelPermalink }}" alt="post-image" class="img-responsive">

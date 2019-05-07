@@ -1,8 +1,7 @@
 ---
 title: "Raees"
 date: 2018-12-26T12:30:01+06:00
-image: raees-bts.jpg
-bannerImg: raees-making.jpg
+image: "raees-making.jpg"
 type: "post"
 category: ["bts"]
 ---
