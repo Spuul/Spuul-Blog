@@ -4,7 +4,8 @@ title = "Spuul Blog"
 
 summaryLength = "7"
 
-
+[frontmatter]
+date = ["lastmod", ":fileModTime", ":default"]
 
 # Menu
 [menu]
