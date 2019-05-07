@@ -49,10 +49,10 @@ url =  "images/header.jpg"
 [params.about]
 enable = true
 title = "Spuul Recommends"
-movieTitle = "Dear Zindagi"
+movieTitle = "Badrinath ki Dulhania"
 bgImage = "/images/spuul-recommends.jpg"
-description = "Raj falls hopelessly in love with Meera, but they have to part ways due to their families’ rivalry. Fifteen years later, they are destined to meet again when their respective siblings fall in love."
-RecLink = "https://spuul.com/videos/658700"
+description = "Badri, a wealthy man’s son, meets Vaidehi at a wedding and sparks fly between them. However, while he wants nothing more than to marry her, she yearns to pursue her dream of becoming an air hostess."
+RecLink = "https://spuul.com/videos/16881"
 
 #subscription
 
