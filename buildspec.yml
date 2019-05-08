@@ -13,7 +13,7 @@ phases:
       - tar xf /tmp/hugo.tar.gz -C /tmp 
       - mv /tmp/hugo /usr/bin/hugo 
       - rm -rf /tmp/hugo*
-      - ./retrieveTimeStamps.sh
+      - bash retrieveTimeStamps.sh
   pre_build: 
     commands: 
       - rm -rf /tmp/hugo_cache/ 
