@@ -302,6 +302,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 .details-container h1{
   font-size:32px;
   color:#fff;
+  font-weight:700;
 }
 .details-container h2{
   font-size:48px;
@@ -469,6 +470,10 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: transparent;
   color: #ff530a;
   border: 1px solid #ff530a;
+}
+
+#blog.behind-the-scenes h1 {
+  font-weight:700;
 }
 
 .blog-single-page {

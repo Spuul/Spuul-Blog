@@ -6,7 +6,7 @@ summaryLength = "7"
 
 googleAnalytics = ""
 
-[frontmatter]
+assetDir = "static"
 
 # Menu
 [menu]

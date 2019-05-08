@@ -15,20 +15,19 @@
 	    {{"<!-- CSS -->"|safeHTML}}
         <!-- Owl Carousel -->
 
-        <link rel="stylesheet" href="{{"css/owl.carousel.css" | absURL }}">
-        <!-- bootstrap.min css -->
-		<link rel="stylesheet" href="{{"css/bootstrap.min.css" | absURL }}">
-        <!-- Font-awesome.min css -->
-		<link rel="stylesheet" href="{{"css/font-awesome.min.css" | absURL}} ">
-        <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{"css/animate.min.css" | absURL}} ">
-
-		<link rel="stylesheet" href="{{"css/main.css" | absURL}} ">
-        <!-- Responsive Stylesheet -->
-		<link rel="stylesheet" href="{{"css/responsive.css" | absURL}} ">
-				<!-- Edits Stylesheet -->
-		<link rel="stylesheet" href="{{"css/edit.css" | absURL}} ">
+    
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+		{{ $owl := resources.Get "/css/owl.carousel.css" }}
+		{{ $bs := resources.Get "/css/bootstrap.min.css" }}
+		{{ $fa := resources.Get "/css/font-awesome.min.css" }}
+		{{ $anim := resources.Get "/css/animate.min.css" }}
+		{{ $main := resources.Get "/css/main.css" }}
+		{{ $resp := resources.Get "/css/responsive.css" }}
+		{{ $edit := resources.Get "/css/edit.css" }}
+
+		{{ $style := slice $owl $bs $fa $anim $main $resp $edit | resources.Concat "bundle.css" | minify }}
+		<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 		{{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
