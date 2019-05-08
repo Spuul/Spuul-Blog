@@ -9,7 +9,6 @@ phases:
   install: 
     commands: 
       - curl -Ls https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz 
-      - bash retrieveTimeStamps.sh
       - echo "${HUGO_SHA256}  /tmp/hugo.tar.gz" | sha256sum -c - 
       - tar xf /tmp/hugo.tar.gz -C /tmp 
       - mv /tmp/hugo /usr/bin/hugo 
@@ -20,6 +19,7 @@ phases:
       - rm -rf ./public 
   build: 
     commands: 
+      - bash retrieveTimeStamps.sh
       - HUGO_ENV=production hugo --ignoreCache 
   post_build: 
     commands: 
