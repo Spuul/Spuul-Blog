@@ -10,7 +10,8 @@
                           <div class="slide-container">
                             <a href="{{ .Permalink }}">
 
-                              {{ with .Resources.GetMatch .Params.image }}
+                              {{ $image := string .Params.image }}
+                              {{ with .Resources.GetMatch $image }}
                               {{ $image := (.Fill "1140x580 center") }}
 
                                 <img class="img-responsive" src="{{ $image.RelPermalink }}" alt="">
