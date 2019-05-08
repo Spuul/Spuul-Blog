@@ -1,6 +1,6 @@
 ---
 title: "Spotlight: Rajkummar Rao"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-05-07
 image: rajkummar-rao-spotlight.jpg
 type: "post"
 category: ["Featured"]

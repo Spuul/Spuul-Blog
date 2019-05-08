@@ -1,6 +1,6 @@
 ---
 title: "We Choose Sara Ali Khan Over Janhvi Kapoor. Here’s Why."
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-27
 image: Sara-Ali-Jahnvi-kapoor.jpg
 type: "post"
 category: ["Featured"]

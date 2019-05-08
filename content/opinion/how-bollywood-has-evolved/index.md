@@ -1,6 +1,6 @@
 ---
 title: "From Romantic Dramas to Fresh New Genres, How Bollywood has evolved"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-30
 image: ayushmann-khurrana.jpg
 type: "post"
 category: "Opinion"

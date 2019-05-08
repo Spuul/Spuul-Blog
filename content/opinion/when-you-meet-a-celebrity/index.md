@@ -1,6 +1,6 @@
 ---
 title: "Things That Happen When You Meet A Celebrity"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-05-03
 image: MeetingCelebrities.jpg
 type: "post"
 category: "Opinion"

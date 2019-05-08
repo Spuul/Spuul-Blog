@@ -1,6 +1,6 @@
 ---
 title: "Monsoons bring out the Bollywood in everyone!"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-05-04
 image: monsoon-in-bollywood.jpg
 type: "post"
 category: "Opinion"

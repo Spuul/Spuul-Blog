@@ -1,6 +1,6 @@
 ---
 title: "Badrinath ki Dulhania"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-27
 image: "badrinath-ki-dulhania-making.jpg"
 type: "post"
 category: ["bts"]

@@ -1,10 +1,10 @@
 ---
 title: "Gender Pay Gap in Bollywood & Why Deepika Padukone Called It Out"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-29
 image: deepika-padukone.jpg
 type: "post"
 category: "Opinion"
-summary: How do we feel about the same industry when they go about with the age-old and unfair practice of the gender pay gap! Well, times have changed and the Bollywood woman of today like to speak their heart out. 
+summary: How do we feel about the same industry when they go about with the age-old and unfair practice of the gender pay gap! Well, times have changed and the Bollywood woman of today like to speak their heart out.
 ---
 
 Aren’t Priyanka Chopra & Deepika Padukone as bankable as Ranbir Kapoor and Ranveer Singh, if not more?

@@ -1,6 +1,6 @@
 ---
 title: "Top 3 Character artists in Bollywood"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-26
 image: characters-artists-bollywood.jpg
 type: "post"
 category: ["Featured"]

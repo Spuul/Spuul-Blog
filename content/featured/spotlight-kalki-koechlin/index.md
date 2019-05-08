@@ -1,6 +1,6 @@
 ---
 title: "Spotlight: Kalki Koechlin"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-28
 image: Kalki-Koechlin-spotlight.jpg
 type: "post"
 category: ["Featured"]

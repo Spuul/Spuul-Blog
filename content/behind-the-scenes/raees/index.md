@@ -1,6 +1,6 @@
 ---
 title: "Raees"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-05-04
 image: "raees-making.jpg"
 type: "post"
 category: ["bts"]

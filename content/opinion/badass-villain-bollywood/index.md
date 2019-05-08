@@ -1,6 +1,6 @@
 ---
 title: "Being A Badass Villain: Boon or Curse in Bollywood?"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-26
 image: bollywood-villains.jpg
 type: "post"
 category: "Opinion"

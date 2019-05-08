@@ -1,6 +1,6 @@
 ---
 title: "Has Bollywood grown out of 'happy endings'?"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-04-28
 image: newendings.jpg
 type: "post"
 category: "Opinion"

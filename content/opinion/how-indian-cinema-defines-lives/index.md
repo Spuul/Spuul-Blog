@@ -1,6 +1,6 @@
 ---
 title: "My Life Is A Movie: How Bollywood Defines Most Indians"
-date: 2018-12-26T12:30:01+06:00
+date: 2019-05-02
 image: DefiningIndians.jpg
 type: "post"
 category: "Opinion"

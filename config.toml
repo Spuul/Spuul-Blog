@@ -4,8 +4,9 @@ title = "Spuul Blog"
 
 summaryLength = "7"
 
+googleAnalytics = ""
+
 [frontmatter]
-date = ["lastmod", ":fileModTime", ":default"]
 
 # Menu
 [menu]
@@ -24,13 +25,6 @@ date = ["lastmod", ":fileModTime", ":default"]
     name = "Behind the Scenes"
     URL = "behind-the-scenes/"
     weight = 3
-
-    [[menu.nav]]
-    name = "Gossips"
-    URL = "gossip/"
-    weight = 4
-
-
 
 # Global Settings
 [params]
