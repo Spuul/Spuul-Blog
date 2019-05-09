@@ -1,5 +1,5 @@
 {{ if .Site.Params.blog.enable}}
-    <section id="blog" class="behind-the-scenes" style="background:url({{ .Site.Params.blog.bgImage | absURL }});">
+    <section id="blog" class="behind-the-scenes">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -22,7 +22,10 @@
                                   </a>
                                 </div>
                                 <div class="hover-play-icon">
-                                  <img src="/images/video-play-icon.png">
+
+                                </div>
+                                <div class="bts-title">
+                                  <span>{{ .Title }}</span>
                                 </div>
                             </div>
                             </div>
