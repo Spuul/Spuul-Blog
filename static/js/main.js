@@ -283,12 +283,14 @@ $(document).ready(function(){
 
 	$('.stars_container').html(starAppend);
 
-/*  $('#mc-embedded-subscribe-form').submit(function (e) {
+  $('#mc-embedded-subscribe-form').submit(function (e) {
     e.preventDefault();
 
     $.ajax({
         url: 'https://spuul.us11.list-manage.com/subscribe/post?u=87bb608900441d7994804719a&amp;id=b7684f3731',
         type: 'POST',
+        Host: "https://spuul.com",
+        Origin: "https://spuul.com",
         data: $('#mc-embedded-subscribe-form').serialize(),
         dataType: 'jsonp',
         contentType: "application/json; charset=utf-8",
@@ -301,6 +303,6 @@ $(document).ready(function(){
            }
         }
     });
-  });*/
+  });
 
 });
