@@ -5,6 +5,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
 	    <meta name="author" content="{{ $.Site.Params.author }}">
+			<link rel="apple-touch-icon" href="/images/appicon.png">
+    	<link rel="icon" href="/images/appicon.png">
+			<meta name="google-site-verification" content="zwG1hR334YnpO88vUEdKYO2PDJsXuy-47dZaIKRMNvg" />
 
 		{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +18,7 @@
 	    {{"<!-- CSS -->"|safeHTML}}
         <!-- Owl Carousel -->
 
-    
+
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
 
 		{{ $owl := resources.Get "/css/owl.carousel.css" }}
