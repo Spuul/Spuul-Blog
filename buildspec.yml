@@ -22,5 +22,8 @@ phases:
       - HUGO_ENV=production hugo --ignoreCache --minify --enableGitInfo --cleanDestinationDir
   post_build:
     commands:
-      - aws --region ap-south-1 s3 sync --exclude '*' --include 'index.html' --delete --cache-control 'max-age=300' --acl public-read public/ s3://blog.spuul.com/
-      - aws --region ap-south-1 s3 sync --exclude 'index.html' --delete --cache-control 'max-age=43200' --acl public-read public/ s3://blog.spuul.com/
+      - aws --region ap-south-1 s3 sync --exclude '*' --include '*.html' --include '*.xml' --include '*.json' --delete --cache-control 'max-age=43200' --acl public-read public/ s3://staging.blog.spuul.com/
+      - aws --region ap-south-1 s3 cp --cache-control 'max-age=3600' --acl public-read public/index.html s3://staging.blog.spuul.com/
+      - aws --region ap-south-1 s3 cp --cache-control 'max-age=3600' --acl public-read public/index.xml s3://staging.blog.spuul.com/
+      - aws --region ap-south-1 s3 cp --cache-control 'max-age=3600' --acl public-read public/index.json s3://staging.blog.spuul.com/
+      - aws --region ap-south-1 s3 sync --exclude '*.html' --exclude '*.xml' --exclude '*.json' --delete --cache-control 'max-age=2592000' --acl public-read public/ s3://staging.blog.spuul.com/
