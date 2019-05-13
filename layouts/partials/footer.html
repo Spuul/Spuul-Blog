@@ -1,64 +1,62 @@
 {{ if .Site.Params.footer.enable }}
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                  <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="block wow fadeInLeft"  data-wow-delay="200ms">
 
-                      <div class="">
-                        <a style="padding:0; margin-bottom:20px;" target="_blank" href="{{ .Site.Params.spuul.url | absURL }}"><img class="img-responsive" src="{{ .Site.Params.spuul.logoLarge | absURL }}" alt="Spuul"/></a>
-                      </div>
+            <div class="">
+              <a style="padding:0; margin-bottom:20px;" target="_blank" href="{{ .Site.Params.spuul.url | absURL }}"><img class="img-responsive" src="{{ .Site.Params.spuul.logoLarge | absURL }}" alt="Spuul"/></a>
+            </div>
 
-                      <h3 style="margin-top:20px;">{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
-                      <div class="social-media-link">
-                          <ul>
-                              {{ range $.Site.Params.footer.socialLink }}
-                              <li>
-                                  <a href="{{ .link }}">
-                                      <i class="fa fa-{{ .icon }}"></i>
-                                  </a>
-                              </li>
-                              {{ end }}
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-              <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="600ms">
-                      <h3>Spuul on <span>Twitter</span></h3>
-                      <a class="twitter-timeline" data-lang="en" data-height="400" data-theme="light" href="https://twitter.com/Spuul?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
-                <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="1000ms">
-                        <h3>Spuul on <span>Facebook</span></h3>
-                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fspuul%2F&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=612137459208459" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                </div>
-                <!-- .col-md-4 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #footer close -->
+            <h3 style="margin-top:20px;">{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
+            <div class="social-media-link">
+              <ul>
+              {{ range $.Site.Params.footer.socialLink }}
+                <li>
+                  <a href="{{ .link }}"><i class="fa fa-{{ .icon }}"></i></a>
+                </li>
+              {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- .col-md-4 close -->
+        <div class="col-md-4">
+          <div class="block wow fadeInLeft"  data-wow-delay="600ms">
+            <h3>Spuul on <span>Twitter</span></h3>
+            <a class="twitter-timeline" data-lang="en" data-height="400" data-theme="light" href="https://twitter.com/Spuul?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <!-- .col-md-4 close -->
+        <div class="col-md-4">
+          <div class="block wow fadeInLeft"  data-wow-delay="1000ms">
+            <h3>Spuul on <span>Facebook</span></h3>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fspuul%2F&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=612137459208459" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+        <!-- .col-md-4 close -->
+      </div><!-- .row close -->
+    </div><!-- .containe close -->
+  </section><!-- #footer close -->
 {{ end }}
 
 
-        {{"<!-- Main jQuery -->" | safeHTML}}
-        <script type="text/javascript" src="{{ "js/jquery.min.js" | absURL}}"></script>
+{{"<!-- Main jQuery -->" | safeHTML}}
+<script type="text/javascript" src="{{ "js/jquery.min.js" | absURL}}"></script>
 
-    		{{ $bs := resources.Get "/js/bootstrap.min.js" }}
-    		{{ $nav := resources.Get "/js/jquery.nav.js" }}
-    		{{ $stic := resources.Get "/js/jquery.sticky.js" }}
-    		{{ $main := resources.Get "/js/main.js" }}
-    		{{ $wow := resources.Get "/js/wow.min.js" }}
-    		{{ $plug := resources.Get "/js/plugins.js" }}
+{{ $bs := resources.Get "/js/bootstrap.min.js" }}
+{{ $nav := resources.Get "/js/jquery.nav.js" }}
+{{ $stic := resources.Get "/js/jquery.sticky.js" }}
+{{ $main := resources.Get "/js/main.js" }}
+{{ $wow := resources.Get "/js/wow.min.js" }}
+{{ $plug := resources.Get "/js/plugins.js" }}
 
-    		{{ $script := slice $bs $nav $stic $main $wow $plug | resources.Concat "bundle.js" | minify | fingerprint}}
+{{ $script := slice $bs $nav $stic $main $wow $plug | resources.Concat "bundle.js" | minify | fingerprint}}
 
-        <script type="text/javascript" src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
+<script type="text/javascript" src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 
-        <!-- modules -->
+<!-- modules -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
 
