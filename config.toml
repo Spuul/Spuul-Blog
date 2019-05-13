@@ -6,8 +6,6 @@ summaryLength = "7"
 
 googleAnalytics = ""
 
-assetDir = "static"
-
 # Menu
 [menu]
 
