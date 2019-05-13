@@ -42,9 +42,7 @@
 {{ end }}
 
 
-{{"<!-- Main jQuery -->" | safeHTML}}
-<script type="text/javascript" src="{{ "/js/jquery.min.js" | absURL}}"></script>
-
+{{ $jquery := resources.Get "js/jquery.min.js" }}
 {{ $bs := resources.Get "js/bootstrap.min.js" }}
 {{ $nav := resources.Get "js/jquery.nav.js" }}
 {{ $stic := resources.Get "js/jquery.sticky.js" }}
@@ -52,7 +50,7 @@
 {{ $wow := resources.Get "js/wow.min.js" }}
 {{ $plug := resources.Get "js/plugins.js" }}
 
-{{ $script := slice $bs $nav $stic $main $wow $plug | resources.Concat "js/bundle.js" | minify | fingerprint}}
+{{ $script := slice $jquery $bs $nav $stic $main $wow $plug | resources.Concat "js/bundle.js" | minify | fingerprint}}
 
 <script type="text/javascript" src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 
