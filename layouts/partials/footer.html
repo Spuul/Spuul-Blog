@@ -54,9 +54,9 @@
     		{{ $wow := resources.Get "/js/wow.min.js" }}
     		{{ $plug := resources.Get "/js/plugins.js" }}
 
-    		{{ $script := slice $bs $nav $stic $main $wow $plug | resources.Concat "bundle.js" | minify }}
+    		{{ $script := slice $bs $nav $stic $main $wow $plug | resources.Concat "bundle.js" | minify | fingerprint}}
 
-        <script type="text/javascript" src="{{ $script.Permalink }}"></script>
+        <script type="text/javascript" src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 
         <!-- modules -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>

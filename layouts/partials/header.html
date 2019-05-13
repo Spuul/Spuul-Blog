@@ -15,10 +15,6 @@
 
 	    <title> {{ .Title }} </title>
 
-	    {{"<!-- CSS -->"|safeHTML}}
-        <!-- Owl Carousel -->
-
-
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
 
 		{{ $owl := resources.Get "/css/owl.carousel.css" }}
@@ -29,8 +25,8 @@
 		{{ $resp := resources.Get "/css/responsive.css" }}
 		{{ $edit := resources.Get "/css/edit.css" }}
 
-		{{ $style := slice $owl $bs $fa $anim $main $resp $edit | resources.Concat "bundle.css" | minify }}
-		<link rel="stylesheet" href="{{ $style.Permalink }}">
+		{{ $style := slice $owl $bs $fa $anim $main $resp $edit | resources.Concat "bundle.css" | minify | fingerprint}}
+		<link rel="stylesheet" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }}>
 
 		{{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
