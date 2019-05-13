@@ -1,4 +1,4 @@
-version: 0.2 
+version: 0.2
  
 environment_variables:
   plaintext:
@@ -23,5 +23,5 @@ phases:
       - HUGO_ENV=production hugo --ignoreCache
   post_build:
     commands:
-      - aws --region ap-south-1 s3 sync --exclude '*' --include 'index.html' --cache-control 'max-age=300' --acl public-read public/ s3://blog.spuul.com/
-      - aws --region ap-south-1 s3 sync --exclude 'index.html' --cache-control 'max-age=43200' --acl public-read public/ s3://blog.spuul.com/
+      - aws --region ap-south-1 s3 sync --exclude '*' --include 'index.html' --delete --cache-control 'max-age=300' --acl public-read public/ s3://blog.spuul.com/
+      - aws --region ap-south-1 s3 sync --exclude 'index.html' --delete --cache-control 'max-age=43200' --acl public-read public/ s3://blog.spuul.com/
