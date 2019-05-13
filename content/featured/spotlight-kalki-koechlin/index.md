@@ -3,7 +3,7 @@ title: "Spotlight: Kalki Koechlin"
 date: 2019-04-28
 image: Kalki-Koechlin-spotlight.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: Kalki has time and again proven to be the epitome of experimentation. Her characters can whisper as softly and bawl as loudly.
 ---
 

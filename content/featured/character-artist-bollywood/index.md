@@ -3,7 +3,7 @@ title: "Top 3 Character artists in Bollywood"
 date: 2019-04-26
 image: characters-artists-bollywood.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: Call them subordinates, sidekicks or supporting actors, movies are incomplete without their dynamic acts and we’re here to give their journey a big shoutout.
 ---
 

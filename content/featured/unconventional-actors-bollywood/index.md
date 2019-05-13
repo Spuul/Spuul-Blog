@@ -3,7 +3,7 @@ title: "Top 3 Unconventional Leading Actors Of Bollywood Today"
 date: 2019-05-05
 image: unconventional-actors-bollywood.jpg
 type: "post"
-category: "Opinion"
+category: "Featured"
 summary: These Unconventional actors have successfully proved that it’s not all about the songs, the dance or the good looks; but - the art of acting and entertainment.
 ---
 

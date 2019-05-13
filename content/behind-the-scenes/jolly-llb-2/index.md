@@ -3,7 +3,7 @@ title: "Jolly LLB 2"
 date: 2019-05-01
 image: "jolly-llb-2-making.jpg"
 type: "post"
-category: ["bts"]
+category: "Behind the Scenes"
 ---
 
 Jolly is a clumsy lawyer who is faced with representing the most critical court case of his career.

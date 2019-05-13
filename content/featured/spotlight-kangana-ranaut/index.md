@@ -3,7 +3,7 @@ title: "Spotlight: Kangana Ranaut"
 date: 2019-04-29
 image: Kangana-Ranaut-spotlight.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: Call her Queen, Datto, Simran or Manikarnika, the feisty and daring Kangana Ranaut has created her own glorious niche in Bollywood.
 ---
 

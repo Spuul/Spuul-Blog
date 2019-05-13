@@ -3,7 +3,7 @@ title: "We Choose Sara Ali Khan Over Janhvi Kapoor. Here’s Why."
 date: 2019-04-27
 image: Sara-Ali-Jahnvi-kapoor.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: Although there is nothing beyond healthy competition between the two, we couldn't help but pit them against each other on the basis of their debut films.
 ---
 

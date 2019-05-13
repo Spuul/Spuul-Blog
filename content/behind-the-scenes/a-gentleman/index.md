@@ -3,7 +3,7 @@ title: "A Gentleman"
 date: 2019-04-25
 image: "a-gentleman-making.jpg"
 type: "post"
-category: ["bts"]
+category: "Behind the Scenes"
 ---
 
 A gentleman is a story about Gaurav who is on a mission to settle down. He is in the process of trying to charm Kavya into creating life with him and getting married. However, Kavya dreads the thought of taking the plunge and settling down. Her only wish is that her “sundar susheel” gentleman lives life to the full, with a little more risk and excitement. However, things take an interesting twist when an assignment takes Gaurav to Mumbai.

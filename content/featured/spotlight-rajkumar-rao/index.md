@@ -3,7 +3,7 @@ title: "Spotlight: Rajkummar Rao"
 date: 2019-05-07
 image: rajkummar-rao-spotlight.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: Rajkummar Rao is a chameleon. He can be an introvert as Govind in Kai Po Che and a flamboyant Pritam in Bareilly Ki Barfi. There ain’t no role this perfectionist can’t pull off.
 ---
 

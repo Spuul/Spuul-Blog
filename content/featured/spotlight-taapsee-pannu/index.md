@@ -3,7 +3,7 @@ title: "Spotlight: Taapsee Pannu"
 date: 2019-05-02
 image: Taapsee-Pannu.jpg
 type: "post"
-category: ["Featured"]
+category: "Featured"
 summary: The loud-heart, the feisty and the ever-empowered Taapsee Pannu has won our hearts with her fierce roles and fearless persona.
 ---
 

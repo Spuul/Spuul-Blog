@@ -3,7 +3,7 @@ title: "Ittefaq"
 date: 2019-04-29
 image: "ittefaq-making.jpg"
 type: "post"
-category: ["bts"]
+category: "Behind the Scenes"
 ---
 
 Vikram is an acclaimed British author who has come to India for a book launch. But when his wife is found dead in their hotel room he is the prime suspect in the murder. What’s more is that he is also the prime suspect in a total stranger’s murder. Now Dev, the dashing police investigator must find out the truth behind the double murders.

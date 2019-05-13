@@ -3,7 +3,7 @@ title: "Kalank"
 date: 2019-05-08
 image: "kalank-making.jpg"
 type: "post"
-category: ["bts"]
+category: "Behind the Scenes"
 ---
 
 The lives of six enigmatic characters become entangled whilst in search of love, but separated by the dichotomy between the two worlds of Husnabad, a town in North India.

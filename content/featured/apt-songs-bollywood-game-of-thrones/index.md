@@ -3,7 +3,7 @@ title: "Apt Bollywood Songs for Top GoT Scenes"
 date: 2019-05-10
 image: game-of-thrones-in-bollywood.jpg
 type: "post"
-category: "Opinion"
+category: "Featured"
 summary: The heady mix of dragons and nudity does work wonders for TRP. But what connects it to our old school Bollywood is perhaps the element of drama.
 ---
 

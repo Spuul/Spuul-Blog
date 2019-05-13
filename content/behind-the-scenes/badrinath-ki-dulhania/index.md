@@ -3,7 +3,7 @@ title: "Badrinath ki Dulhania"
 date: 2019-04-27
 image: "badrinath-ki-dulhania-making.jpg"
 type: "post"
-category: ["bts"]
+category: "Behind the Scenes"
 ---
 
 Badrinath Bansal from Jhansi and Vaidehi Trivedi from Kota belong to small towns but have diametrically opposite opinions on everything. This leads to a clash of ideologies, despite both of them recognizing the goodness in each other.
