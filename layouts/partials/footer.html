@@ -49,14 +49,12 @@
 {{ $main := resources.Get "js/main.js" }}
 {{ $wow := resources.Get "js/wow.min.js" }}
 {{ $plug := resources.Get "js/plugins.js" }}
+{{ $vuejs := resources.Get "js/vue-2.5.17.min.js" }}
+{{ $axios := resources.Get "js/axios-0.18.0.min.js" }}
 
-{{ $script := slice $jquery $bs $nav $stic $main $wow $plug | resources.Concat "js/bundle.js" | minify | fingerprint}}
+{{ $script := slice $jquery $bs $nav $stic $main $wow $plug $vuejs $axios | resources.Concat "js/bundle.js" | minify | fingerprint }}
 
 <script type="text/javascript" src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
-
-<!-- modules -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
 
 <script>
 let vuesearch = new Vue({
