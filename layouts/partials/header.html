@@ -9,7 +9,6 @@
       <link rel="icon" href="/images/appicon.png">
       <meta name="google-site-verification" content="zwG1hR334YnpO88vUEdKYO2PDJsXuy-47dZaIKRMNvg" />
 
-    {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
       <meta name="viewport" content="width=device-width, initial-scale=1">
       {{ .Hugo.Generator }}
 
@@ -31,8 +30,6 @@
     {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
         {{ end }}
-
-
 
   </head>
   <body>
