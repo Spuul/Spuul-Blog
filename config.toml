@@ -131,4 +131,4 @@ bgImage = "/images/behind-the-scenes.jpg"
   tag = "tags"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
