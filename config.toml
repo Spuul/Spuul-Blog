@@ -5,6 +5,7 @@ title = "Spuul Blog"
 summaryLength = "7"
 
 googleAnalytics = "UA-30583055-1"
+enableRobotsTXT = true
 
 # Menu
 [menu]
