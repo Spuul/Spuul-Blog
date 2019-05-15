@@ -9,7 +9,7 @@ googleAnalytics = "UA-30583055-1"
 # Menu
 [menu]
 
-	[[menu.nav]]
+  [[menu.nav]]
     name = "Featured"
     URL = "featured/"
     weight = 1
@@ -131,4 +131,4 @@ bgImage = "/images/behind-the-scenes.jpg"
   tag = "tags"
 
 [outputs]
-	home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
