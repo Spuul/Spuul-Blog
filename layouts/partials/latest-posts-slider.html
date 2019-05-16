@@ -13,8 +13,15 @@
                               {{ $image := string .Params.image }}
                               {{ with .Resources.GetMatch $image }}
                               {{ $image := (.Fill "1140x580 center") }}
+                              {{ $image480 := (.Fill "450x250 center") }}
 
-                                <img class="img-responsive" src="{{ $image.RelPermalink }}" alt="">
+
+                                <img class="img-responsive"
+                                srcset="{{ $image480.RelPermalink }} 480w,
+                                 {{ $image.RelPermalink }} 990w"
+                                sizes="(max-width: 480px) 480px,
+                                990px"
+                                src="{{ $image.RelPermalink }}" alt="">
 
                                 {{ end }}
                             </a>

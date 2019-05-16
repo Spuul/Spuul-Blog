@@ -94,6 +94,9 @@ li {
   padding: 10px;
   border-radius: 10px;
 }
+.masonry-card-item img {
+  margin: 0 auto;
+}
 
 @media (min-width: 768px) {
   .masonry-layout {
