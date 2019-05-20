@@ -1,0 +1,39 @@
+{{ if .IsHome -}}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "url": "{{ .Site.BaseURL }}",
+    {{ if .Site.Params.description -}}
+    "description": "{{ .Site.Params.description }}",
+    {{- end }}
+    {{ if .Site.Params.logo -}}
+    "thumbnailUrl": "{{ .Site.Params.logo }}",
+    {{- end }}
+    "name": "{{ .Site.Title }}",
+    "author": "Spuul",
+    "publisher": "Spuul",
+    "keywords": "Bollywood news, Bollywood gossips, Movies list, Actors, Actresses"
+  }
+  </script>
+  {{- else if .IsPage -}}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ .Title }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+      },
+      "thumbnailUrl": "{{ .Params.image | absURL }}",
+      "datePublished": "{{ .Params.date }}",
+      {{ if .Params.summary -}}
+      "description": "{{ .Params.summary }}",
+      {{- end}}
+      "url": "{{ .Permalink }}",
+      "author": "Spuul",
+      "wordcount": {{ .WordCount }},
+    }
+  </script>
+  {{- end }}
