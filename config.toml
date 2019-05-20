@@ -133,3 +133,8 @@ bgImage = "/images/behind-the-scenes.jpg"
 
 [outputs]
   home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
