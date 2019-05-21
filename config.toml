@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Spuul Blog"
-
+description = "News, Views and Previews about all things Bollywood!"
 summaryLength = "7"
 
 googleAnalytics = "UA-30583055-1"
@@ -28,6 +28,7 @@ enableRobotsTXT = true
 # Global Settings
 [params]
 logo = "images/logo.png"
+description = "News, Views and Previews about all things Bollywood!"
 
 [params.spuul]
 logo = "images/SpuulLogo.png"
@@ -133,3 +134,8 @@ bgImage = "/images/behind-the-scenes.jpg"
 
 [outputs]
   home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
