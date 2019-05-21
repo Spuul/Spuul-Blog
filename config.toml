@@ -118,7 +118,12 @@ enable = true
 Text = "Copyright 2019 - All Rights Reserved. Design and Developed By Spuul.com"
 
 
-
+[params.twitter]
+card = "summary_large_image"
+site = "@spuul"
+creator = "@spuul"
+title = "Spuul Blog"
+description = "News, Views and Previews about all things Bollywood!"
 
 #blog
 [params.blog]
