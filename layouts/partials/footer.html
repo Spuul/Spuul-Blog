@@ -51,9 +51,8 @@
 {{ $plug := resources.Get "js/plugins.js" }}
 {{ $vuejs := resources.Get "js/vue-2.5.17.min.js" }}
 {{ $axios := resources.Get "js/axios-0.18.0.min.js" }}
-{{ $mc := resources.Get "js/mc-validate.js" }}
 
-{{ $script := slice $jquery $bs $nav $stic $main $wow $plug $vuejs $axios $mc | resources.Concat "js/bundle.js" | minify | fingerprint }}
+{{ $script := slice $jquery $bs $nav $stic $main $wow $plug $vuejs $axios | resources.Concat "js/bundle.js" | minify | fingerprint }}
 
 <script type="text/javascript" src="{{ $script.Permalink }}" defer {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
 
