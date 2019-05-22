@@ -26,7 +26,7 @@
         "@type": "WebPage",
         "@id": "{{ .Permalink }}"
       },
-      "thumbnailUrl": "{{ .Params.image | absURL }}",
+      {{ with .Resources.GetMatch .Params.image }}"thumbnailUrl": "{{ .Permalink }}",{{ end }}
       "datePublished": "{{ .Params.date }}",
       {{ if .Params.summary -}}
       "description": "{{ .Params.summary }}",
