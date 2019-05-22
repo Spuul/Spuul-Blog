@@ -13,7 +13,12 @@
                 </ul>
 -->
                 {{ $image := string .Params.image }}
-                {{ with .Resources.GetMatch $image }}<img class="img-responsive" src="{{ $image }}" alt="{{ .Title }}">{{ end }}
+
+                {{- $images := $.Resources.ByType "image" -}}
+                {{- $featured := $images.GetMatch $image -}}
+                {{- with $featured -}}
+                <img class="img-responsive" src="{{ $featured.Permalink }}" alt="{{ .Title }}">
+                {{ end }}
             </div>
             <div class="col-md-8 col-md-offset-2">
                 <div class="post-single-content">
