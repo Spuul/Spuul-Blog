@@ -8,6 +8,11 @@
 <meta name="twitter:description" content="{{ .Site.Params.twitter.description }}">
 {{- else if .IsPage -}}
 <meta name="twitter:title" content="{{ .Title }}">
-{{ with .Resources.GetMatch .Params.image }}<meta name="twitter:image" content="{{ .Permalink }}">{{ end }}
+{{ $image := string .Params.image }}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch $image -}}
+{{- with $featured -}}
+<meta name="twitter:image" content="{{ $featured.Permalink }}">
+{{ end }}
 <meta name="twitter:description" content="{{ .Params.summary }}">
 {{ end }}

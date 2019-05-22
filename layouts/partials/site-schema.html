@@ -26,8 +26,12 @@
         "@type": "WebPage",
         "@id": "{{ .Permalink }}"
       },
-      {{ with .Resources.GetMatch .Params.image }}"thumbnailUrl": "{{ .Permalink }}",{{ end }}
-      "datePublished": "{{ .Params.date }}",
+      {{ $image := string .Params.image }}
+      {{- $images := $.Resources.ByType "image" -}}
+      {{- $featured := $images.GetMatch $image -}}
+      {{- with $featured -}}
+      "thumbnailUrl": "{{  $featured.Permalink }}",
+      {{ end }}
       {{ if .Params.summary -}}
       "description": "{{ .Params.summary }}",
       {{- end}}

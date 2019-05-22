@@ -19,7 +19,7 @@ phases:
       - rm -rf ./public
   build:
     commands:
-      - HUGO_ENV=staging hugo -D -F --ignoreCache --minify --enableGitInfo --cleanDestinationDir
+      - HUGO_ENV=staging hugo -D -F -b https://staging-blog.spuul.com/ --ignoreCache --minify --enableGitInfo --cleanDestinationDir
   post_build:
     commands:
       - aws --region ap-south-1 s3 sync --exclude '*' --include '*.html' --include '*.xml' --include '*.json' --cache-control 'max-age=10' --acl public-read public/ s3://staging.blog.spuul.com/
