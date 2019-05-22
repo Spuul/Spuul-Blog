@@ -37,9 +37,16 @@
       {{- end}}
       "url": "{{ .Permalink }}",
       "author": "Spuul",
+      "publisher": "Spuul"
       "wordcount": {{ .WordCount }},
-      "datePublished" : "{{ .Date.Format "2006-01-02" }}",
-      "dateModified" : "{{ .Lastmod.Format "2006-01-02"  }}"
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+      {{ $image := string .Params.image }}
+      {{- $images := $.Resources.ByType "image" -}}
+      {{- $featured := $images.GetMatch $image -}}
+      {{- with $featured -}}
+      "image": "{{  $featured.Permalink }}",
+      {{ end }}
     }
   </script>
   {{- end }}

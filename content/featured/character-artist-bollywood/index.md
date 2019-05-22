@@ -13,8 +13,9 @@ While a movie may never be remembered solely for these gems, we know their talen
 
 Call them subordinates, sidekicks or supporting actors, movies are incomplete without their dynamic acts and we’re here to give their journey a big shoutout for they have made Indian cinema what it is today.
 
-<h3><a href="https://spuul.com/stars/478-pran" rel="noopener" target="_blank">Pran</a></h3>
-<img src="https://blog.spuul.com/wp-content/uploads/2019/02/pran-character-actor-bollywood.jpg" alt="Pran Character Artist Bollywood"/>
+<h3><a href="https://spuul.com/stars/478-pran" rel="noopener">Pran</a></h3>
+
+<img src="pran-character-actor-bollywood.jpg" alt="Pran Character Artist Bollywood"/>
 
 Pran Kewal Sikand, known by the mononym Pran, chanced upon an acting career in 1940. After a brief struggle, he scored his Bollywood debut Ziddi. He gained popularity for his lean and mean roles in movies like Ram Aur Shyam, Milan, Heer Ranjha, Kashmir Ki Kali and more. He made his evil roles so believable and despicable that people stopped naming their kids "Pran".
 
@@ -22,8 +23,9 @@ But that was only the beginning of his reign, with Upkar in 1967 he broke the vi
 
 Pran worked in 600+ movies in his skyrocketing career and outlasted the careers of many superstars like Dilip Kumar, Dev Anand, Amitabh Bachchan, Rishi Kapoor, etc. He was reportedly paid more than protagonists in the early 1970s due to his seniority in the industry. During the casting of Bobby, Raj Kapoor couldn't afford Pran, who then agreed to do the film with a signing amount of Re 1. He once stated, that if reincarnation exists, he’d like to be born as Pran all over again.
 
-<h3><a href="https://spuul.com/stars/9-anupam-kher" rel="noopener" target="_blank">Anupam Kher</a></h3>
-<img src="https://blog.spuul.com/wp-content/uploads/2019/02/anupam-kher-character-actor-bollywood.jpg" alt="Anupam Kher Character Artist Bollywood"/>
+<h3><a href="https://spuul.com/stars/9-anupam-kher" rel="noopener">Anupam Kher</a></h3>
+
+<img src="anupam-kher-character-actor-bollywood.jpg" alt="Anupam Kher Character Artist Bollywood"/>
 
 Anupam Kher was born in Shimla in 1955 and was inclined towards acting at a young age. With a gold medal in his theatre department at the college, he was then sent to National School Of Drama. Thereafter the future seemed bright for the fledgeling actor but he struggled as a Drama teacher in Lucknow and Mumbai until he scored his debut film Saaransh via Mahesh Bhatt. He played an old man in this film even though he was only a 28 year old at the time and was truly recognised for his seamless portrayal. So much so, he was offered around 100 roles within 10 days of its release.
 
@@ -31,8 +33,9 @@ It’s been a rollercoaster for Kher ever since, a rollercoaster that only goes 
 
 A stage artist, veteran actor, a TV host and now a prominent Hollywood actor, Kher has starred in the Oscar-nominated movie Silver Linings Playbook, a hit Netflix show Sense 8 and is currently working on the American drama series New Amsterdam. Oh and he also runs an Acting School in Mumbai. He is known for his love for cinema across borders and his accolades have touched the sky. Need we say more?
 
-<h3><a href="https://spuul.com/stars/87-paresh-rawal" rel="noopener" target="_blank">Paresh Rawal</a></h3>
-<img src="https://blog.spuul.com/wp-content/uploads/2019/02/paresh-rawal-character-actor-bollywood.jpg" alt="Paresh Rawal Character Artist Bollywood"/>
+<h3><a href="https://spuul.com/stars/87-paresh-rawal" rel="noopener">Paresh Rawal</a></h3>
+
+<img src="paresh-rawal-character-actor-bollywood.jpg" alt="Paresh Rawal Character Artist Bollywood"/>
 
 Paresh Rawal was born in Mumbai in 1950 and at the early age of 12, he had already decided to pursue an acting career. With support from his school and college principals, he took part in festivals and later joined theatre for a living. Being a natural stage artist, he was earlier stuck between doing parallel and commercial cinema but eventually found his ground in both.
 

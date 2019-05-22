@@ -144,3 +144,6 @@ bgImage = "/images/behind-the-scenes.jpg"
   changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
+
+[blackfriday]
+hrefTargetBlank = true
