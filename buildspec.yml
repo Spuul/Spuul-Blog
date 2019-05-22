@@ -19,7 +19,7 @@ phases:
       - rm -rf ./public
   build:
     commands:
-      - HUGO_ENV=production hugo --ignoreCache --minify --enableGitInfo --cleanDestinationDir
+      - HUGO_ENV=production hugo -b https://blog.spuul.com/ --ignoreCache --minify --enableGitInfo --cleanDestinationDir
   post_build:
     commands:
       - aws --region ap-south-1 s3 sync --exclude '*' --include '*.html' --include '*.xml' --include '*.json' --cache-control 'max-age=43200' --acl public-read public/ s3://blog.spuul.com/
