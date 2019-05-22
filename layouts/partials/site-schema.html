@@ -38,6 +38,8 @@
       "url": "{{ .Permalink }}",
       "author": "Spuul",
       "wordcount": {{ .WordCount }},
+      "datePublished" : "{{ .Date.Format "2006-01-02" }}",
+      "dateModified" : "{{ .Lastmod.Format "2006-01-02"  }}"
     }
   </script>
   {{- end }}
