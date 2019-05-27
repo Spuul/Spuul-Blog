@@ -11,7 +11,7 @@ After being thoroughly successful at making crime dramas like Gangs of Wasseypur
 
 These badass women are going to play two real-life badass 60-somethings who happen to be sharpshooters. Chandro and Prakashi Tomar from Uttar Pradesh are famously known as “shooter-dadis”. These two ace shooters have individually won more than 350 medals in state and national championships, all while raising 30 children and 45 grandchildren. They’re basically real-life superwomen and their story must be worth beholding!
 
-<h3>Taapsee seems excited about this challenge</h3>
+<h3>Taapsee seems excited about this</h3>
 
 {{< instagram BwRpqoXJ5Mb >}}
 
