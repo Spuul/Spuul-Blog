@@ -23,6 +23,4 @@ phases:
   post_build:
     commands:
       - aws --region ap-south-1 s3 sync --exclude '*' --include '*.html' --include '*.xml' --include '*.json' --cache-control 'max-age=10' --acl public-read public/ s3://staging.blog.spuul.com/
-      - aws --region ap-south-1 s3 cp --cache-control 'max-age=10' --acl public-read public/index.html s3://staging.blog.spuul.com/
-      - aws --region ap-south-1 s3 cp --cache-control 'max-age=10' --acl public-read public/index.xml s3://staging.blog.spuul.com/
       - aws --region ap-south-1 s3 sync --exclude '*.html' --exclude '*.xml' --exclude '*.json' --cache-control 'max-age=3600' --acl public-read public/ s3://staging.blog.spuul.com/
