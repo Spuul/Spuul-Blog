@@ -10,7 +10,7 @@
                   {{ $image := string .Params.image }}
                   {{ with .Resources.GetMatch $image }}
                     {{ $image := (.Fill "480x280 center") }}
-                    <img class="img-responsive" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">{{ end }}
+                    <a href="{{ .Permalink }}"><img class="img-responsive" src="{{ $image.RelPermalink }}" alt="{{ .Title }}"></a>{{ end }}
                     <h2 class="heading">
                       <a href="{{ .Permalink }}">
                           {{ .Title }}
